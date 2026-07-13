@@ -12,3 +12,6 @@ enableXsrfProtection = true
 
 [browser]
 gatherUsageStats = false
+
+[runner]
+installer = "pip"
