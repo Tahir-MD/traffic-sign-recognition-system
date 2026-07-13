@@ -1,0 +1,745 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+.conda/
+.venv*/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-reports/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# PyBuilder
+target/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+*.pynb
+*.py.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+.python-version.lock
+
+# pipenv
+Pipfile.lock
+pipenv.lock
+
+# poetry
+poetry.lock
+pyproject.toml.bak
+
+# pdm
+.pdm.toml
+.pdm.toml.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env.local
+.env.production
+.env.development
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+*.iml
+.idea/
+.vscode-test/
+
+# VS Code
+.vscode/
+*.code-workspace
+.vscode/settings.json
+.vscode/extensions.json
+
+# JetBrains
+.idea/
+*.iml
+out/
+.idea_modules/
+.idea/dictionaries/
+
+# Streamlit
+.streamlit/
+.streamlit/cache
+.streamlit/secrets.toml
+.streamlit/static/
+
+# Model files (large files - 2026 standards)
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+*.engine
+*.weights
+*.bin
+*.safetensors
+*.gguf
+*.ggml
+*.mlpackage
+*.coreml
+*.mar
+
+# Dataset files (2026)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.arrow
+*.feather
+*.jsonl
+*.ndjson
+*.avro
+*.orc
+
+# Audio/Video files (large)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+
+# Image files (datasets)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+*.tiff
+*.svg
+*.raw
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+cache/
+*.cache.*
+*.temp.*
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+*.logs/
+
+# Output directories
+output/
+results/
+predictions/
+models/artifacts/
+artifacts/
+checkpoints/
+weights/
+model_output/
+inference_results/
+
+# Secret files
+*.key
+*.pem
+*.crt
+*.p12
+*.p8
+*.csr
+secrets.json
+secrets.yaml
+config.local.json
+config.local.yaml
+*.secret
+*.env.secret
+credentials.json
+service-account.json
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.bak
+*.old
+*.orig
+*.tmp
+
+# Docker
+*.pid
+docker-compose.override.yml
+.dockerignore.local
+docker-compose*.yaml
+*.dockerfile.local
+
+# Deployment
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.tgz
+*.gz
+*.xz
+*.bz2
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux
+*~
+.directory
+.document
+.localized
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.vhd
+*.vhdx
+
+# Application specific
+*.pyc
+*.pyo
+*.pyd
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.hypothesis/
+*pycache*
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+*.pynb
+*.py.ipynb
+*.pynb
+
+# Data files
+data/
+dataset/
+datasets/
+*.npy
+*.npz
+*.mat
+*.parquet
+*.feather
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+*.pth.tar
+*.model
+*.safetensors
+*.bin
+*.gguf
+
+# TensorFlow
+*.tfrecord
+*.tfevents
+*.tflite
+*.h5
+*.keras
+*.pb
+*.saved_model
+
+# PyTorch
+*.pth
+*.pt
+*.bin
+*.onnx
+*.torchscript
+
+# MLflow
+mlruns/
+mlflow.db
+.flow/
+*.flow
+
+# Ray
+ray_results/
+ray_cloud/
+
+# WandB
+wandb/
+*.wandb
+wandb_crash_report.json
+
+# ML metadata
+*.meta
+*.index
+*.data-*
+*.index.lock
+
+# Hugging Face
+.huggingface/
+cache/
+models--*/refs/
+models--*/snapshots/
+
+# Comet.ml
+.comet/
+comet_ml.log
+
+# Neptune.ai
+.neptune/
+neptune.log
+
+# ClearML
+clearml.conf
+.clearml/
+
+# Kubeflow
+.kfp/
+pipelines/
+
+# Kubeflow
+kfp_*.pipeline.zip
+kfp_*.tar.gz
+
+# MLOps
+*.mlflow
+*.wandb
+*.comet
+*.neptune
+
+# Git
+*.orig
+*.patch
+*.rej
+*.merge
+*.BASE.*
+*.REMOTE.*
+*.LOCAL.*
+*.BACKUP.*
+
+# GitHub
+.github/pull-request-template.md.bak
+.github/ISSUE_TEMPLATE/*.bak
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+
+# Code quality
+*.lint
+*.style
+*.format
+*_lint.txt
+*_style.txt
+
+# Dependency lock files (2026)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+deno.lock
+cargo.lock
+go.sum
+podfile.lock
+gradle.lockfile
+poetry.lock
+uv.lock
+pdm.lock
+
+# Python 3.13+ specific
+__pypackages__/
+*.py312
+*.py313
+
+# NuGet
+*.nupkg
+*.nuget.*
+packages/
+*.paket/
+
+# NPM/Yarn
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.bun-debug.log*
+
+# Ruby
+*.gem
+.bundle/
+Gemfile.lock
+.vendor/
+
+# Go
+*.mod.local
+*.sum.local
+vendor/
+go.work
+go.work.sum
+
+# Rust
+target/
+Cargo.lock
+*.rs.bk
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.classpath
+*.project
+.settings/
+bin/
+lib/
+
+# PHP
+*.log
+*.cache
+composer.phar
+vendor/
+composer.lock
+.env.local
+.phpunit.result.cache
+
+# C++
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.out
+build/
+cmake-build-*/
+
+# React/Next.js
+.next/
+out/
+build/
+dist/
+.env.local
+.env*.local
+**/.vscode/
+**/.eslintcache
+**/.prettiercache
+
+# Svelte
+.svelte-kit/
+build/
+
+# Vue
+dist/
+**/.vscode/
+
+# Angular
+dist/
+**/.vscode/
+**/.angular/
+
+# Flutter
+.pub-cache/
+.pub/
+build/
+*.lock
+*.pid
+*.swp
+*.swo
+
+# iOS
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Android
+*.iml
+.gradle/
+local.properties
+.idea/
+build/
+*.apk
+*.aab
+*.dex
+*.class
+.android/
+google-services.json
+firebase.json
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+*.pidb
+*.suo
+*.user
+*.cache
+*.manifest
+*.asset
+*.meta
+*.unitypackage
+
+# Electron
+dist/
+out/
+*.app/
+*.exe
+*.dmg
+*.pkg
+
+# Cloud Providers
+*.pem
+*.p12
+*.pfx
+*.crt
+*.key
+*.csr
+*.secret
+*.serviceaccount.json
+*.gcloud.credentials.json
+*.aws.credentials.json
+*.azure.credentials.json
+*.gcp.credentials.json
+
+# Kubernetes
+*.kubeconfig
+*.yaml.local
+*.yml.local
+*.helmignore
+charts/*.tgz
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfplan
+override.tf
+override.tf.json
+*.override.tf
+*.override.tf.json
+
+# Ansible
+*.retry
+*.inv
+*.vault
+
+# Redis
+*.rdb
+*.aof
+dump.rdb
+
+# Elasticsearch
+*.idx
+*.cfs
+
+# MongoDB
+*.wt
+*.wiredtiger
+
+# PostgreSQL
+*.pgdata
+*.sql
+*.dump
+
+# MySQL
+*.ibd
+*.frm
+*.MYD
+*.MYI
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.orig
+*.rej
+*.diff
+*.patch
+
+# Project specific - 2026
+.github/workflows/*.bak
+.github/ISSUE_TEMPLATE/*.bak
+.github/PULL_REQUEST_TEMPLATE/*.bak
+
+# Custom directories
+.cache/
+.aws/
+.gcloud/
+.azure/
+.kube/
+.docker/
+.ssh/
+.gnupg/
+.local/
+.config/
