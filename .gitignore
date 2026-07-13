@@ -179,10 +179,6 @@ out/
 .idea/dictionaries/
 
 # Streamlit
-.streamlit/
-.streamlit/cache
-.streamlit/secrets.toml
-.streamlit/static/
 
 # Model files (large files - 2026 standards)
 *.pt
