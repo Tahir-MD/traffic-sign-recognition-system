@@ -203,12 +203,14 @@ def main():
         ```bash
         pip install -r requirements.txt
         streamlit run app.py
-""")
+        ```
+        """)
 
-with tab3:
-    st.markdown("### 📊 Performance Dashboard")
-    fig = create_metrics_dashboard()
-    st.plotly_chart(fig, use_container_width=True)
+    with tab3:
+        st.markdown("### 📊 Performance Dashboard")
+        fig = create_metrics_dashboard()
+        st.plotly_chart(fig, use_container_width=True)
 
-if name == "main":
+
+if __name__ == "__main__":
     main()
